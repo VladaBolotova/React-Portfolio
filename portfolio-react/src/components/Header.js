@@ -1,4 +1,6 @@
 import React from 'react';
+import Navigation from './Navigation';
+import hedaerStyle from './header.module.css'
 
 const styles = {
     heading: {
@@ -17,21 +19,9 @@ const styles = {
   function Header() {
     return (
 
-          <div style={styles.heading}>Vladyslava Bolotova
-          <ul>
-            <li>
-                About me
-            </li>
-            <li>
-                Portfolio
-            </li>
-            <li>
-                Resume
-            </li>
-            <li>
-                Contact
-            </li>
-          </ul>
+          <div style={styles.heading} className={hedaerStyle.header}>
+            <h1>Vladyslava Bolotova</h1>
+          <Navigation />
           </div>
           
        

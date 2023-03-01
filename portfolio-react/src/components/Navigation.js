@@ -1,10 +1,11 @@
+import styles from './header.module.css';
 import React from 'react';
 
 
 
 function Navigation({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
+    <ul className={`nav nav-tabs ${styles.now}`}>
       <li className="nav-item">
         <a
           href="#about"
@@ -35,7 +36,7 @@ function Navigation({ currentPage, handlePageChange }) {
 
           className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
         >
-          Resume
+         Resume
         </a>
       </li>
       <li className="nav-item">

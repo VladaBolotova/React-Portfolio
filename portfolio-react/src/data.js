@@ -1,8 +1,11 @@
-export const projects = [
+export default  [
     {
         title: "Fitness Tracker",
-        image: "",
-        link: ""
+        description: "",
+        git: "",
+        link: "",
+        image: "test.jpeg",
+       
     },
     {
         title: "Fitness Tracker",
