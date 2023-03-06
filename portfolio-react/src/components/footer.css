@@ -1,0 +1,17 @@
+.contact {
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+    justify-content:center;  
+    margin-left: 40%;
+    color:aliceblue;
+    text-decoration: none;
+    border-radius: 50%;
+    border-style: dashed;
+    font-size: xx-large;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+

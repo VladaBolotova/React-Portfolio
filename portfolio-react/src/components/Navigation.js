@@ -3,7 +3,12 @@ import React from 'react';
 
 
 
-function Navigation({ currentPage, handlePageChange }) {
+function Navigation({ currentPage, setCurrentPage }) {
+
+function handlePageChange(page) {
+  setCurrentPage(page)
+}
+
   return (
     <ul className={`nav nav-tabs ${styles.now}`}>
       <li className="nav-item">

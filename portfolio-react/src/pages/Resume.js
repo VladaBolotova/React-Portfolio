@@ -5,29 +5,53 @@ const Resume = () => {
     <div>
       <h2>My Resume</h2>
       <p>Here you can find my resume and qualifications:</p>
-      <a href='/path/to/resume.pdf' target='_blank' rel='noopener noreferrer'>Download Resume</a>
-      <h1>Front-End</h1>
+      <a href='https://docs.google.com/document/d/1mHddhcCbMOeAHXpq8TbNUpnQapy7W2svy4BvmfT1wIo/edit#' target='_blank' rel='noopener noreferrer'>Download Resume</a>
+      <h1>Front-end Proficiencies</h1>
       <ul>
         <li>
-            dcjdcad
+            HTML
         </li>
         <li>
-            dcjdcad
+            CSS
         </li>
         <li>
-            dcjdcad
+            Javascript
+        </li>
+        <li>
+            jQuery
+        </li>
+        <li>
+            Responsive design
+        </li>
+        <li>
+            React
+        </li>
+        <li>
+            Bootstrap
         </li>
       </ul>
-      <h1>Back-End</h1>
+      <h1>Back-end Proficiencies</h1>
       <ul>
         <li>
-            dcjdcad
+           APIs
         </li>
         <li>
-            dcjdcad
+            Node
         </li>
         <li>
-            dcjdcad
+            Express
+        </li>
+        <li>
+           MySQL, Sequelize
+        </li>
+        <li>
+            MongoDB, Mongoose
+        </li>
+        <li>
+           REST
+        </li>
+        <li>
+           GraphQL
         </li>
       </ul>
     </div>

@@ -15,7 +15,7 @@ function ContactMe() {
     }
     return (
       <div className="container mt-5">
-        <h2 className="mb-3">Contact me</h2>
+        <form id='form' className='text-center' style={{ width: '100%', maxWidth: '300px', color: 'pink' }}></form><h2>Contact me</h2>
         <form onSubmit={onSubmit}>
           <div className="mb-3">
             <label className="form-label" htmlFor="name">
