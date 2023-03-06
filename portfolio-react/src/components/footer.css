@@ -2,6 +2,7 @@
     height: 50px;
     width: 50px;
     padding: 20px;
+    margin-bottom: 10px;
     justify-content:center;  
     margin-left: 40%;
     color:aliceblue;
@@ -13,5 +14,9 @@
     justify-content: space-between;
     align-items: center;
 
+}
+
+.contact i{
+    margin: 5px;
 }
 

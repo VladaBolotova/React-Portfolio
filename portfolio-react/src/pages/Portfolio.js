@@ -1,6 +1,10 @@
 import Project from "../components/Project";
 import data from "../data" ;
 import fitnessImg from '../pages/fitness.png'
+import movie from '../pages/movie.png'
+import weather from '../pages/weather.png'
+import workDay from '../pages/workDay.png'
+
 const Portfolio =()=>{
     return (
         <div >
@@ -18,7 +22,7 @@ const Portfolio =()=>{
               name={data[1].title}
               git={data[1].git}
               link={data[1].link}
-              image={data[1].image}
+              image={movie}
               />
 
     
@@ -27,7 +31,7 @@ const Portfolio =()=>{
               name={data[2].title}
               git={data[2].git}
               link={data[2].link}
-              image={data[2].image}
+              image={weather}
               />
 
             
@@ -36,7 +40,7 @@ const Portfolio =()=>{
               name={data[3].title}
               git={data[3].git}
               link={data[3].link}
-              image={data[3].image}
+              image={workDay}
               />
 
             </div>
