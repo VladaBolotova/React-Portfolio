@@ -4,12 +4,14 @@ import fitnessImg from '../pages/fitness.png'
 import movie from '../pages/movie.png'
 import weather from '../pages/weather.png'
 import workDay from '../pages/workDay.png'
+import style from '../components/project.module.css'
 
 const Portfolio =()=>{
-    return (
-        <div >
+    return (   
+        <div>
             <h2>Portfolio</h2>
-            <div className="project-container">
+            <div className="projectContainer">
+            
               <Project  
               name={data[0].title}
               git={data[0].git}
@@ -45,6 +47,7 @@ const Portfolio =()=>{
 
             </div>
         </div>
+            
     )
 }
 

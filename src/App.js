@@ -31,15 +31,15 @@ function App() {
   }
   
   return (
-    <div>
-<Header setCurrentPage={setCurrentPage} />
+  <div>
+    <Header setCurrentPage={setCurrentPage} />
 
-{renderPage()}
+    {renderPage()}
 
-<Footer />
+    <Footer />
+  </div>
 
 
-    </div>
   );
 }
 
